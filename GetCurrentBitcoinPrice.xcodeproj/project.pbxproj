@@ -17,7 +17,6 @@
 		B8FB38A328FFC82A0062B492 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB38A028FFC82A0062B492 /* CoinManager.swift */; };
 		B8FB38A428FFC82A0062B492 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB38A128FFC82A0062B492 /* CoinModel.swift */; };
 		B8FB38A528FFC82A0062B492 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB38A228FFC82A0062B492 /* CoinData.swift */; };
-		B8FB38A728FFC89C0062B492 /* Costants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB38A628FFC89C0062B492 /* Costants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		B8FB38A028FFC82A0062B492 /* CoinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		B8FB38A128FFC82A0062B492 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		B8FB38A228FFC82A0062B492 /* CoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
-		B8FB38A628FFC89C0062B492 /* Costants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Costants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				B8FB389528FFB57B0062B492 /* Views */,
 				B8FB389728FFB5880062B492 /* Controllers */,
 				B8FB388A28FFB4880062B492 /* Assets.xcassets */,
-				B8FB38A628FFC89C0062B492 /* Costants.swift */,
 				B8FB388C28FFB4880062B492 /* LaunchScreen.storyboard */,
 				B8FB388F28FFB4880062B492 /* Info.plist */,
 				B8FB388728FFB4860062B492 /* GetCurrentBitcoinPrice.xcdatamodeld */,
@@ -183,7 +180,6 @@
 				B8FB38A528FFC82A0062B492 /* CoinData.swift in Sources */,
 				B8FB387F28FFB4860062B492 /* AppDelegate.swift in Sources */,
 				B8FB388128FFB4860062B492 /* SceneDelegate.swift in Sources */,
-				B8FB38A728FFC89C0062B492 /* Costants.swift in Sources */,
 				B8FB38A428FFC82A0062B492 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
