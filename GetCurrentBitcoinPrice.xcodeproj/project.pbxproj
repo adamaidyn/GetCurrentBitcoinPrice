@@ -10,7 +10,6 @@
 		B8FB387F28FFB4860062B492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB387E28FFB4860062B492 /* AppDelegate.swift */; };
 		B8FB388128FFB4860062B492 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB388028FFB4860062B492 /* SceneDelegate.swift */; };
 		B8FB388328FFB4860062B492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB388228FFB4860062B492 /* ViewController.swift */; };
-		B8FB388628FFB4860062B492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FB388428FFB4860062B492 /* Main.storyboard */; };
 		B8FB388928FFB4860062B492 /* GetCurrentBitcoinPrice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8FB388728FFB4860062B492 /* GetCurrentBitcoinPrice.xcdatamodeld */; };
 		B8FB388B28FFB4880062B492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FB388A28FFB4880062B492 /* Assets.xcassets */; };
 		B8FB388E28FFB4880062B492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FB388C28FFB4880062B492 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		B8FB387E28FFB4860062B492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FB388028FFB4860062B492 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8FB388228FFB4860062B492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8FB388528FFB4860062B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8FB388828FFB4860062B492 /* GetCurrentBitcoinPrice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetCurrentBitcoinPrice.xcdatamodel; sourceTree = "<group>"; };
 		B8FB388A28FFB4880062B492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8FB388D28FFB4880062B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				B8FB387E28FFB4860062B492 /* AppDelegate.swift */,
 				B8FB388028FFB4860062B492 /* SceneDelegate.swift */,
 				B8FB388228FFB4860062B492 /* ViewController.swift */,
-				B8FB388428FFB4860062B492 /* Main.storyboard */,
 				B8FB388A28FFB4880062B492 /* Assets.xcassets */,
 				B8FB388C28FFB4880062B492 /* LaunchScreen.storyboard */,
 				B8FB388F28FFB4880062B492 /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				B8FB388E28FFB4880062B492 /* LaunchScreen.storyboard in Resources */,
 				B8FB388B28FFB4880062B492 /* Assets.xcassets in Resources */,
-				B8FB388628FFB4860062B492 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8FB388428FFB4860062B492 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8FB388528FFB4860062B492 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8FB388C28FFB4880062B492 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +284,6 @@
 				INFOPLIST_FILE = GetCurrentBitcoinPrice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +311,6 @@
 				INFOPLIST_FILE = GetCurrentBitcoinPrice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
